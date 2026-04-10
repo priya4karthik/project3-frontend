@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import "./index.css";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://127.0.0.1:8000/api/products";
 
+const API_BASE = process.env.REACT_APP_API_BASE || "https://project-3-backend-1--priya4karthik15.replit.app/api";
 /* ─── tiny helpers ──────────────────────────────────────────────────── */
 function useDebounce(value, delay = 350) {
   const [dv, setDv] = useState(value);
